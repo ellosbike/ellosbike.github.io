@@ -13,6 +13,7 @@ import { FooterComponent } from './layout/footer/footer.component';
 import { MenuComponent } from './layout/menu/menu.component';
 import { BikeService } from './pages/client/bike/bike.service';
 import { StationService } from './pages/client/list-of-stations/station.service';
+import { HomeAdminComponent } from 'src/app/pages/admin/home-admin/home-admin.component';
 
 @NgModule({
   declarations: [
@@ -21,15 +22,12 @@ import { StationService } from './pages/client/list-of-stations/station.service'
     DirectionsMapDirective,
     AutocompleteMapDirective,
     FooterComponent,
-    MenuComponent
+    MenuComponent,
+    HomeAdminComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    AgmCoreModule.forRoot({
-      apiKey: environment.map_key,
-      libraries: ['places']
-    }),
+    AppRoutingModule
   ],
   providers: [
     GoogleMapsAPIWrapper,
