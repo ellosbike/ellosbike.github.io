@@ -1,0 +1,24 @@
+.container {
+    text-align: center;
+}
+
+.sawarabi {
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+.font-title-size {
+    font-size: 25px;
+}
+
+.font-small-size {
+    font-size: 15px;
+}
+
+.gray {
+    color: gray;
+}
+
+#title {
+    margin-top: 16px;
+    margin-bottom: 16px; 
+}

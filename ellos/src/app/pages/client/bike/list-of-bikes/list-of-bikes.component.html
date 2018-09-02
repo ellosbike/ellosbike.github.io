@@ -1,0 +1,14 @@
+<div class="container">
+  <p id="title" class="sawarabi font-title-size">Bicicletas: conheça cada história</p>
+  <p id="subtitle" class="gray font-small-size">Pessoas e histórias reais para você escolher de qual parte
+    de uma vida você quer pra passear hoje. Aproveite :)</p>
+  <!-- div *ngFor="let bike of bikes" class="card mb-3" (click)="goToDetail(bike)"-->
+  <div *ngFor="let bike of bikes" class="card mb-3" routerLink="/bicicleta/{{bike.id}}">
+    <img class="card-img-top" [src]="bike.imageName" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">{{ bike.name }}</h5>
+      <p class="card-text">{{ bike.subtitle }}</p>
+      <p class="card-text"><small class="text-muted">Clique no card para saber a história completa.</small></p>
+    </div>
+  </div>
+</div>

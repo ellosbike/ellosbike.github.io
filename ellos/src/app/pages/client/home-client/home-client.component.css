@@ -1,0 +1,247 @@
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.col {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.container-home {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+}
+
+.container-next-event {
+    text-align: center;
+    background-color: #eeeeee;
+    padding: 8px;
+    margin: 0px;
+}
+
+.container-more {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 8px;
+    margin: 8px;
+}
+
+.container-how-it-works {
+    text-align: left;
+    background-color: #206190;
+    padding: 8px;
+    margin: 0px;
+}
+
+.card {
+    width: 18rem;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.bg-image-watermelon {
+    background-image: url("../../../../assets/images/watermelon.jpg");
+    background-size: contain;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.didatic {
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.sawarabi {
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.font-medium-size {
+    font-size: 20px;
+}
+
+.font-title-size {
+    font-size: 22px;
+}
+
+.font-small-size {
+    font-size: 18px;
+}
+
+.blue {
+    color: #364a93;
+}
+
+.dark-grey {
+    color: #545454;
+}
+
+.white {
+    color: white;
+}
+
+.rounded-img {
+    border-radius: 50%;
+}
+
+.small-img {
+    width: 60px;
+    height: 60px;
+}
+
+.medium-img {
+    width: 80px;
+    height: 80px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.justify-left {
+    text-align: start;
+}
+
+#ellos-name {
+    width: 70px;
+    margin: 8px;
+}
+
+#ellos-logo {
+    margin: 8px;
+}
+
+#bg-watermelon {
+    width: 100%;
+    height: auto;
+}
+
+#bg-watermelon-device {
+    width: 100%;
+    height: auto;
+}
+
+#img-hack {
+    width: 200px;
+}
+
+#hack-description {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: start;
+    width: 400px;
+}
+
+@media (max-width: 690px) {
+
+    #hack-description {
+        text-align: center;
+    }
+}
+
+@media (max-width: 400px) {
+
+    #hack-description {
+        width: 350px;
+    }
+}
+
+@media (max-width: 350px) {
+
+    #hack-description {
+        width: 300px;
+    }
+}
+
+@media (max-width: 300px) {
+
+    #hack-description {
+        width: 250px;
+    }
+}
+
+@media (max-width: 278px) {
+
+    #hack-description {
+        width: 200px;
+    }
+}
+
+@media (max-width: 570px) {
+
+    .font-title-size {
+        font-size: 20px;
+    }
+
+    .font-medium-size {
+        font-size: 18px;
+    }
+
+    .font-small-size {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 550px) {
+
+    .font-title-size {
+        font-size: 18px;
+    }
+
+    .font-medium-size {
+        font-size: 15px;
+    }
+
+    .font-small-size {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 500px) {
+    #bg-watermelon {
+        width: 100%;
+        height: auto;
+    }
+
+    #bg-watermelon {
+        display: none;
+    }
+    #bg-watermelon-device {
+        display: unset;
+    }
+
+}
+
+@media (min-width: 499px) {
+    
+    #bg-watermelon {
+        display: unset;
+    }
+    #bg-watermelon-device {
+        display: none;
+    }
+}
+
+@media (max-width: 310px) {
+    .card {
+        width: 15rem;
+    }
+}
+
+@media (max-width: 270px) {
+    .card {
+        width: 12rem;
+    }
+}

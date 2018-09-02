@@ -1,0 +1,57 @@
+#navbar {
+    background-color: #1B1C1C; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#sponsors {
+    background-color: #2e2d2d;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#social-media {
+    background-color: #206190;
+    padding: 8px;
+}
+
+#text-footer {
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+}
+
+.sawarabi {
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.rounded {
+    border-radius: 50%;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.small-medium {
+    max-width: 50px;
+}
+
+.small {
+    max-width: 40px;
+}
+
+.sponsor-size {
+    max-width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+hr { 
+    background-color: #818182;
+}
